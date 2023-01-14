@@ -166,3 +166,28 @@ body {
     animation: opacity 4s infinite linear;
 }
 
+
+@media screen and (max-width: 768px) {
+    .sub-title {
+        font-size: 1.5rem;
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    .sub-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sub-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .sub-title {
+        font-size: 0.8rem;
+    }
+}
+
